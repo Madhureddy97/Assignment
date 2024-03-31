@@ -1,0 +1,35 @@
+.upcomingevents-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .upcomingevents-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+
+.upcoming-events-heading {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.upcoming-events {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.right-arrow-icon {
+  height: 30px;
+  width: 60px;
+  align-self: center;
+  color: #000000;
+}

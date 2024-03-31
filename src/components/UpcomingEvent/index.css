@@ -1,0 +1,23 @@
+.upcomingevent-container {
+  margin-bottom: 30px;
+  border: 2px solid #b0babf;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.After-note-text {
+  font-size: 20px;
+}
+
+.remaining-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-distance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}

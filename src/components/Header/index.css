@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.HeaderFirstLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.book-us-now {
+  font-size: 20px;
+  color: #cf2d2d;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .categories-input-container {
+    display: none;
+  }
+}
+
+.hamburger-icon {
+  margin-right: 8px;
+}
+
+.categories-button {
+  background-color: #1e2022;
+  color: #ffffff;
+  font-size: 13px;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .fav-signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.heart-icon {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .fav-signin-container {
+    display: none;
+  }
+}
+
+.signin-button {
+  border: 2px solid #b0babf;
+  padding: 7px;
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+}
+
+.header-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 14px;
+}
+
+.HeaderSecondLine {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location-mumbai-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .list-items {
+    list-style-type: none;
+    display: flex;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-items {
+    display: none;
+  }
+}
+
+.list-item {
+  margin: 10px;
+}

@@ -1,0 +1,12 @@
+.recommendshow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  background-color:transparent;
+}

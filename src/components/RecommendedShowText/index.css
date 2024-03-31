@@ -1,0 +1,32 @@
+.recommended-show-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.makeagree-cityname-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.other-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-styles {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.weather-distance-container {
+  display: flex;
+}
+
+.location-icon{
+  color:#ffffff;
+}
+
+.city-location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
