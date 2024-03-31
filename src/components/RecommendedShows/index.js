@@ -5,7 +5,6 @@ import './index.css'
 
 import RecommendedShow from '../RecommendedShow'
 
-// const {Component} = require("react")
 
 class RecommendedShows extends Component {
   constructor(props) {
